@@ -1,2 +1,2 @@
 # Java_prog
-this repo contains programs written java language 
+this repo contains programs written in java language 
