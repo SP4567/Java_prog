@@ -49,7 +49,6 @@ class MouseEvents2 extends Frame implements MouseListener,MouseMotionListener,Ke
         int s = m.getX();
         int p = m.getY();
         gh.fillOval(s, p, 10, 10);
-        gh.setText("Mouse Moved");
     }
     public void keyTyped(KeyEvent k)
     {
