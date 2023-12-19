@@ -31,3 +31,4 @@ public class interviewQ1 {
         iq.sumCal();
     }  
 }
+// time complexity is O(N).
