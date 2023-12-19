@@ -1,26 +1,26 @@
 import java.util.*;
 interface nums1
 {
-public void number();
+    public void number();
 }
 interface nums2
 {
-public void number();
+    public void number();
 }
-public class multiple_inheritance implements nums1, nums2
+class multiple_inheritance
 {
-public void number()
-{
-Scanner sc = new Scanner(System.in);
-System.out.println("enter two numbers");
-int  a = sc.nextInt();
-int  b = sc.nextInt();
-int s = a  + b;
-System.out.println("sum of two numbers is:"+s);
+    Scanner sc = new Scanner(System.in);
+    public void number()
+    {
+        System.out.println("enter two number");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println("sum of two number is: "+sum);
+    }
+    public static void main(String args[])
+    {
+        multiple_inheritance m = new multiple_inheritance();
+        m.number();
+    }
 }
-public static void main(String args[])
-{
- multiple_inheritance ob = new multiple_inheritance();
-ob.number();
-}
-} 
