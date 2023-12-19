@@ -60,7 +60,7 @@ class diagonal
         System.out.println(" "+asd);
         System.out.println(" "+bsd);
     }
-    void main()
+    public static void main(String args[])
     {
         diagonal d=new diagonal(3,3);
         d.get_data();

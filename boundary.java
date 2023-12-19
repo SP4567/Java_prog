@@ -55,7 +55,7 @@ class boundary
         System.out.println(""+sbe);
         System.out.println(""+snbe);
     }
-    void main()
+    void main(String args[])
     {
         boundary b=new boundary();
         b.boundary(3,3);

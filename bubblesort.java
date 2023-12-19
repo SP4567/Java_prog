@@ -3,10 +3,10 @@ class bubblesort
 {
     int arr[],i,j,n,temp;
     Scanner sc=new Scanner(System.in);
-    bubblesort(int y)
+    bubblesort()
     {
-     i=y;
-     arr=new int[y];
+     i=0;
+     arr=new int[0];
     }
     void input()
     {
@@ -44,9 +44,9 @@ class bubblesort
             System.out.println(" "+arr[i]);
         }
     }
-    void main()
+    public static void main(String[] args)
     {
-        bubblesort obj=new bubblesort(9);
+        bubblesort obj=new bubblesort();
         obj.input();
         obj.display();
         obj.bubble();

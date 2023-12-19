@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=boundary
+comment1.params=
+comment1.target=boundary()
+comment2.params=mm\ nn
+comment2.target=void\ boundary(int,\ int)
+comment3.params=
+comment3.target=void\ input()
+comment4.params=
+comment4.target=void\ display()
+comment5.params=
+comment5.target=void\ sum_boundary_non_boundary()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

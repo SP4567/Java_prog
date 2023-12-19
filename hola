@@ -1,0 +1,23 @@
+class hola
+{
+    public static void findTotalNumber(int n)
+    {
+    int total = 0;
+    for(int i = 0;i <= n;i++)
+    {
+        total+=i;
+    }
+    if(total > 100)
+    {
+     dddd   System.out.println("The total number is greater than 100!");
+    }
+    else
+    {
+        System.out.println(total);
+    }
+    }
+    public static void main(String args[])
+    {
+        findTotalNumber(5);
+    }
+}

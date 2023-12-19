@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=arrays
+comment1.params=
+comment1.target=arrays()
+comment2.params=mm\ nn
+comment2.target=void\ assign(int,\ int)
+comment3.params=
+comment3.target=void\ input_array()
+comment4.params=
+comment4.target=void\ display_array()
+comment5.params=
+comment5.target=void\ transpose()
+comment6.params=
+comment6.target=void\ add()
+comment7.params=
+comment7.target=void\ sub()
+comment8.params=
+comment8.target=void\ main()
+numComments=9
